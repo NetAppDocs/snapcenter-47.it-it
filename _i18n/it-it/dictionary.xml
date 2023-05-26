@@ -7916,4 +7916,6 @@
   <block id="268dbeaafbfc6c1c4598d5990f02d4ee" category="sidebar">Configurare il certificato CA</block>
   <block id="87ab0eaad6e67624f5afc8ca70f468a6" category="sidebar">Ripristinare i file system di Windows</block>
   <block id="52d2606cbe14d34b900ce50e86a67b13" category="sidebar">Clonare i file system Windows</block>
+  <block id="46d55a8aefdec15a8ce44087c8123826" category="inline-link">Operazione non riuscita con errore Impossibile rilevare il dispositivo per il LUN</block>
+  <block id="24642a08e354f43168ca4f1178850f84" category="list-text">Assicurarsi che il LUN non sia mappato all'host AIX utilizzando iGroup costituito da protocolli misti iSCSI e FC. Per ulteriori informazioni, vedere<block ref="94f247529a6b6f563b3a8d4772877431" category="inline-link-rx"></block>.</block>
 </blocks>
