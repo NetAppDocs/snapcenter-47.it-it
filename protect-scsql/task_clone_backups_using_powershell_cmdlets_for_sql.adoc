@@ -1,9 +1,14 @@
-= 
+---
+permalink: protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html 
+sidebar: sidebar 
+keywords: clone 
+summary: 'Il flusso di lavoro dei cloni include la pianificazione, l"esecuzione dell"operazione di cloni e il monitoraggio dell"operazione.' 
+---
+= Clonare i backup utilizzando i cmdlet PowerShell
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
-
-'''
-permalink: Protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html Sidebar: Sidebar Keywords: Riepilogo dei cloni: 'Il workflow dei cloni include la pianificazione, l'esecuzione dell'operazione dei cloni e il monitoraggio dell'operazione.' --- = clonare i backup utilizzando i cmdlet PowerShell :Icons: Font :imagesdir: ../media/
 
 Il flusso di lavoro dei cloni include la pianificazione, l'esecuzione dell'operazione di cloni e il monitoraggio dell'operazione.
 

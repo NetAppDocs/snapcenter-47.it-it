@@ -25,9 +25,6 @@ http://support.microsoft.com/kb/2926557/["Articolo di supporto Microsoft 2926557
 
 * Quando si installa un plug-in su un host Windows, se si specifica una credenziale non integrata o se l'utente appartiene a un utente del gruppo di lavoro locale, è necessario disattivare il controllo dell'account utente sull'host.
 * Se SnapManager per Microsoft SQL Server è installato, è necessario aver arrestato o disattivato il servizio e le pianificazioni.
-+
-Se si prevede di importare processi di backup o clonazione in SnapCenter, non disinstallare SnapManager per Microsoft SQL Server.
-
 * L'host deve essere risolvibile con il nome di dominio completo (FQDN) dal server.
 +
 Se il file hosts viene modificato in modo da renderlo risolvibile e se nel file hosts sono specificati sia il nome breve che l'FQDN, creare una voce nel file hosts di SnapCenter nel seguente formato: <ip_address> <host_fqdn> <host_name>
