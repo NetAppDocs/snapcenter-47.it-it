@@ -421,7 +421,7 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/concept_prerequisites_for_using_snapcenter_plug_in_for_microsoft_sql_server.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
@@ -680,7 +680,7 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/install/enable_multifactor_authentication.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
@@ -743,7 +743,7 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/quick_start_to_install_snapcenter_plug-in_for_sql_server.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
@@ -890,28 +890,28 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-hana/reference_host_requirements_to_install_snapcenter_plug_in_package_for_windows_hana.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scc/reference_host_requirements_to_install_snapcenter_plug_in_package_for_windows_scc.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/reference_host_requirements_to_install_snapcenter_plug_in_package_for_windows_sql.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scw/reference_installation_requirements_for_snapcenter_plug_in_for_microsoft_windows.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
@@ -1044,7 +1044,7 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-sce/reference_prerequisites_to_add_hosts_and_install_snapcenter_plug_in_for_microsoft_exchange_server.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
@@ -1058,7 +1058,7 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/reference_prerequisites_to_adding_hosts_and_installing_snapcenter_plug_in_for_microsoft_sql_server.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   
@@ -1282,7 +1282,7 @@
     <url>
       <loc>https://docs.netapp.com/it-it/snapcenter-47//search.html</loc>
       
-      <lastmod>2023-05-26T12:00:10+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:36+00:00</lastmod>
       
     </url>
   
@@ -1630,9 +1630,9 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/it-it/snapcenter-47/</loc>
+      <loc>https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html</loc>
       
-      <lastmod>2023-05-24T01:15:17+00:00</lastmod>
+      <lastmod>2023-05-29T08:28:20+00:00</lastmod>
       
     </url>
   

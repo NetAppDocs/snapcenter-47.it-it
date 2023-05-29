@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="it">
   <head class="at-element-marker">
-  <title></title>
+  <title>Clonare i backup utilizzando i cmdlet PowerShell</title>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
   <meta http-equiv="language" content="en">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="" />
+  <meta property="og:title" content="Clonare i backup utilizzando i cmdlet PowerShell" />
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-	<meta property="og:description" content="" />
+	<meta property="og:url" content="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+	<meta property="og:description" content="Il flusso di lavoro dei cloni include la pianificazione, l"esecuzione dell"operazione di cloni e il monitoraggio dell"operazione." />
   <meta property="og:image" content="https://docs.netapp.com/it-it/snapcenter-47/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="encoding" content="utf-8">
   <meta http-equiv="nss-type" content="Product Documentation"/>
-  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
-  <meta name="keywords" content=" "><!-- Icons -->
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="Il flusso di lavoro dei cloni include la pianificazione, l"esecuzione dell"operazione di cloni e il monitoraggio dell"operazione.">
+  <meta name="keywords" content=" clone"><!-- Icons -->
   <link rel="icon" href="/it-it/snapcenter-47/images/favicon.ico" type="image/x-icon">
 
   <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
@@ -32,17 +32,17 @@
   <link rel="stylesheet" href="/it-it/snapcenter-47/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/it-it/snapcenter-47/css/tabbed-blocks.css" type="text/css">
   <!-- Canonical url -->
-  <link rel="canonical" href="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
-  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/" />
+  <link rel="canonical" href="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" />
   <link rel='stylesheet' href='/it-it/snapcenter-47/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -187,35 +187,35 @@
 
   <ul class="custom-dropdown-menu"><li>
       
-      <a href="https://docs.netapp.com/it-it/snapcenter-47/" target="_self">
+      <a href="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self">
         <span translate="no" class="notranslate"><span>Software SnapCenter</span><span class="version"> 4.7</span></span>
       </a>
                      
     </li>
     <li>
       
-      <a href="https://docs.netapp.com/it-it/snapcenter/" target="_self">
+      <a href="https://docs.netapp.com/it-it/snapcenter/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self">
         <span translate="no" class="notranslate"><span>Software SnapCenter</span><span class="version"> 4.8</span></span>
       </a>
                      
     </li>
     <li>
       
-      <a href="https://docs.netapp.com/it-it/snapcenter-46/" target="_self">
+      <a href="https://docs.netapp.com/it-it/snapcenter-46/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self">
         <span translate="no" class="notranslate"><span>Software SnapCenter</span><span class="version"> 4.6</span></span>
       </a>
                      
     </li>
     <li>
       
-      <a href="https://docs.netapp.com/it-it/snapcenter-45/" target="_self">
+      <a href="https://docs.netapp.com/it-it/snapcenter-45/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self">
         <span translate="no" class="notranslate"><span>Software SnapCenter</span><span class="version"> 4.5</span></span>
       </a>
                      
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-47.it-it/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql/&page-title=" class="page-nav-contribute-link" role="button"><img src="/it-it/snapcenter-47/images/discuss-sm.svg" alt="" class="github-icon" />Richiedi modifiche alla documentazione</a><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-47/blob/main/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.adoc" class="page-nav-contribute-link" role="button"><img src="/it-it/snapcenter-47/images/edit-sm.svg" alt="" class="github-icon" />Modifica questa pagina</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/it-it/snapcenter-47/images/article-sm.svg" alt="" class="github-icon" />Scopri come collaborare</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-47.it-it/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html&page-title=Clonare i backup utilizzando i cmdlet PowerShell" class="page-nav-contribute-link" role="button"><img src="/it-it/snapcenter-47/images/discuss-sm.svg" alt="" class="github-icon" />Richiedi modifiche alla documentazione</a><a target="_blank" href="https://github.com/NetAppDocs/snapcenter-47/blob/main/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.adoc" class="page-nav-contribute-link" role="button"><img src="/it-it/snapcenter-47/images/edit-sm.svg" alt="" class="github-icon" />Modifica questa pagina</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/it-it/snapcenter-47/images/article-sm.svg" alt="" class="github-icon" />Scopri come collaborare</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">IN QUESTA PAGINA</div>
@@ -335,23 +335,23 @@
       </div>
 
       <ul class="custom-dropdown-menu"><li>
-          <a href="https://docs.netapp.com/it-it/snapcenter-47/" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
+          <a href="https://docs.netapp.com/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/us-en/snapcenter-47/" target="_self"><span translate="no" class="notranslate">English</span></a>
+          <a href="https://docs.netapp.com/us-en/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">English</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/ja-jp/snapcenter-47/" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+          <a href="https://docs.netapp.com/ja-jp/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/ko-kr/snapcenter-47/" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+          <a href="https://docs.netapp.com/ko-kr/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/zh-cn/snapcenter-47/" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+          <a href="https://docs.netapp.com/zh-cn/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/zh-tw/snapcenter-47/" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+          <a href="https://docs.netapp.com/zh-tw/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/de-de/snapcenter-47/" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
+          <a href="https://docs.netapp.com/de-de/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">Deutsch</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/es-es/snapcenter-47/" target="_self"><span translate="no" class="notranslate">Español</span></a>
+          <a href="https://docs.netapp.com/es-es/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
-          <a href="https://docs.netapp.com/fr-fr/snapcenter-47/" target="_self"><span translate="no" class="notranslate">Français</span></a>
+          <a href="https://docs.netapp.com/fr-fr/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -1149,6 +1149,8 @@
 
 
 
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
+  
 
 
 
@@ -4104,7 +4106,7 @@
       data-pdf-exists="true" 
       data-pdf-filename="Clonare i backup utilizzando i cmdlet PowerShell"
       data-li-level="3#" 
-      class=" "
+      class="  active "
     ><a class="na-navbar-padding" href="/it-it/snapcenter-47/protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html">
         Clonare i backup utilizzando i cmdlet PowerShell
       </a></li><li 
@@ -6780,14 +6782,14 @@
     </div>
   </span>
 </div><div class="n-doc__component-detail-heading-wrap">
-  <h1 class="n-doc__component-detail-heading"></h1>
+  <h1 class="n-doc__component-detail-heading">Clonare i backup utilizzando i cmdlet PowerShell</h1>
 </div>
 
 
 <p class="page-details">
   
     
-    <time datetime="2023-05-24 01:15:17 +0000">05/24/2023</time>
+    <time datetime="2023-05-29 08:28:20 +0000">05/29/2023</time>
     
   
 
@@ -6797,14 +6799,6 @@
 
 </p>
 
-<div class="paragraph">
-<p>=
-:allow-uri-read:</p>
-</div>
-<hr>
-<div class="paragraph">
-<p>permalink: Protect-scsql/task_clone_backups_using_powershell_cmdlets_for_sql.html Sidebar: Sidebar Keywords: Riepilogo dei cloni: 'Il workflow dei cloni include la pianificazione, l&#8217;esecuzione dell&#8217;operazione dei cloni e il monitoraggio dell&#8217;operazione.' --- = clonare i backup utilizzando i cmdlet PowerShell :Icons: Font :imagesdir: ../media/</p>
-</div>
 <div class="paragraph">
 <p>Il flusso di lavoro dei cloni include la pianificazione, l&#8217;esecuzione dell&#8217;operazione di cloni e il monitoraggio dell&#8217;operazione.</p>
 </div>
