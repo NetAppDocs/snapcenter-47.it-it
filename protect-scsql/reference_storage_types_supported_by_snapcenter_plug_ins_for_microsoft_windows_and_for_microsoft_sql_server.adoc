@@ -10,6 +10,7 @@ summary: 'SnapCenter supporta un"ampia gamma di tipi di storage su macchine fisi
 :imagesdir: ../media/
 
 
+[role="lead"]
 SnapCenter supporta un'ampia gamma di tipi di storage su macchine fisiche e virtuali. Prima di installare il pacchetto per l'host, è necessario verificare se il supporto è disponibile per il tipo di storage in uso.
 
 Il provisioning SnapCenter e il supporto per la protezione dei dati sono disponibili su Windows Server. Per informazioni aggiornate sulle versioni supportate, consultare https://imt.netapp.com/matrix/imt.jsp?components=105963;&solution=1258&isHWU&src=IMT["Tool di matrice di interoperabilità NetApp"^].

@@ -10,6 +10,7 @@ summary: Prima di installare il pacchetto di plug-in SnapCenter per Windows, è 
 :imagesdir: ../media/
 
 
+[role="lead"]
 Prima di installare il pacchetto di plug-in SnapCenter per Windows, è necessario conoscere alcuni requisiti di base relativi allo spazio del sistema host e al dimensionamento.
 
 |===

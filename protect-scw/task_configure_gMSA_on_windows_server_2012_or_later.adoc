@@ -10,6 +10,7 @@ summary: 'Windows Server 2012 o versione successiva consente di creare un accoun
 :imagesdir: ../media/
 
 
+[role="lead"]
 Windows Server 2012 o versione successiva consente di creare un account di servizio gestito di gruppo (gMSA) che fornisce la gestione automatica delle password dell'account di servizio da un account di dominio gestito.
 
 *Cosa ti serve*

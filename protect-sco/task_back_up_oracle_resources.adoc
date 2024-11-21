@@ -17,9 +17,9 @@ Se una risorsa non fa parte di un gruppo di risorse, è possibile eseguarne il b
 
 . Nel riquadro di spostamento di sinistra, fare clic su *risorse*, quindi selezionare il plug-in appropriato dall'elenco.
 . Nella pagina Resources (risorse), selezionare *Database* dall'elenco *View* (Visualizza).
-. Fare clic su *image:../media/filter_icon.gif[""]*, quindi selezionare il nome host e il tipo di database per filtrare le risorse.
+. Fare clic su * *image:../media/filter_icon.gif["icona del filtro"], quindi selezionare il nome host e il tipo di database per filtrare le risorse.
 +
-Quindi fare clic su *image:../media/filter_icon.gif[""]* per chiudere il riquadro del filtro.
+È quindi possibile fare clic su * *image:../media/filter_icon.gif["icona del filtro"]per chiudere il riquadro del filtro.
 
 . Selezionare il database di cui si desidera eseguire il backup.
 +
@@ -51,12 +51,12 @@ Specificare le destinazioni dei file di log dell'archivio di cui non si desidera
 .. Selezionare uno o più criteri dall'elenco a discesa.
 +
 
-NOTE: Puoi anche creare una policy facendo clic su *image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: È anche possibile creare una policy facendo clic su * *image:../media/add_policy_from_resourcegroup.gif["aggiungi criterio dal gruppo di risorse"].
 
 +
 Nella sezione Configure schedules for selected policies (Configura pianificazioni per policy selezionate), vengono elencati i criteri selezionati.
 
-.. Fare clic su image:../media/add_policy_from_resourcegroup.gif[""] Nella colonna Configure Schedules (Configura pianificazioni) per il criterio per il quale si desidera configurare una pianificazione.
+.. Fare clic image:../media/add_policy_from_resourcegroup.gif["aggiungi criterio dal gruppo di risorse"] nella colonna Configura pianificazioni per il criterio per il quale si desidera configurare una pianificazione.
 .. Nella finestra Add schedules for policy _policy_name_, configurare la pianificazione, quindi fare clic su *OK*.
 +
 _policy_name_ è il nome del criterio selezionato.
@@ -69,7 +69,7 @@ Le pianificazioni configurate sono elencate nella colonna Applied Schedules (Pia
 . Nella pagina verifica, attenersi alla seguente procedura:
 +
 .. Fare clic su *Load Locators* (carica locatori) per caricare i volumi SnapMirror o SnapVault per eseguire la verifica sullo storage secondario.
-.. Fare clic su image:../media/add_policy_from_resourcegroup.gif[""] Nella colonna Configura pianificazioni per configurare la pianificazione di verifica per tutti i tipi di pianificazione del criterio.
+.. Fare clic su image:../media/add_policy_from_resourcegroup.gif["aggiungi criterio dal gruppo di risorse"] nella colonna Configure Schedules (Configura pianificazioni) per configurare la pianificazione della verifica per tutti i tipi di pianificazione del criterio.
 .. Nella finestra di dialogo Add Verification Schedules _policy_name_, eseguire le seguenti operazioni:
 +
 |===

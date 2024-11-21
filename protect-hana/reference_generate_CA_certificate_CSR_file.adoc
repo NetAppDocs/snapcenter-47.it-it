@@ -10,6 +10,7 @@ summary: 'È possibile generare una CSR (Certificate Signing Request) e importar
 :imagesdir: ../media/
 
 
+[role="lead"]
 È possibile generare una richiesta di firma del certificato (CSR) e importare il certificato che può essere ottenuto da un'autorità di certificazione (CA) utilizzando la CSR generata. Al certificato verrà associata una chiave privata.
 
 CSR è un blocco di testo codificato fornito a un fornitore di certificati autorizzato per ottenere il certificato CA firmato.

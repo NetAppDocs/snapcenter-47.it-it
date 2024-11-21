@@ -10,6 +10,7 @@ summary: 'Il ripristino di un backup delle risorse include l"avvio di una sessio
 :imagesdir: ../media/
 
 
+[role="lead"]
 Il ripristino di un backup delle risorse include l'avvio di una sessione di connessione con il server SnapCenter, l'elenco dei backup, il recupero delle informazioni di backup e il ripristino di un backup.
 
 È necessario aver preparato l'ambiente PowerShell per eseguire i cmdlet PowerShell.
@@ -104,4 +105,4 @@ PluginName          :
 ----
 
 
-Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo _Get-Help command_name_. In alternativa, fare riferimento alla https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guida di riferimento al cmdlet del software SnapCenter"^].
+Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo _Get-Help command_name_. In alternativa, fare riferimento anche a https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guida di riferimento al cmdlet del software SnapCenter"^].

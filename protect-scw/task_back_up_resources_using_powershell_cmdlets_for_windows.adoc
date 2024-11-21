@@ -10,6 +10,7 @@ summary: 'È possibile utilizzare i cmdlet PowerShell per eseguire il backup dei
 :imagesdir: ../media/
 
 
+[role="lead"]
 È possibile utilizzare i cmdlet PowerShell per eseguire il backup dei database SQL Server o dei file system Windows. Il backup di un database o di un file system di SQL Server include la connessione con il server SnapCenter, il rilevamento delle istanze o dei file system di SQL Server, l'aggiunta di un criterio, la creazione di un gruppo di risorse di backup, il backup e la verifica del backup.
 
 *Cosa ti serve*
@@ -110,4 +111,4 @@ PS C:\> Get-SmJobSummaryReport -Date '1/27/2016'
 ----
 
 
-Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo _Get-Help command_name_. In alternativa, fare riferimento alla https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guida di riferimento al cmdlet del software SnapCenter"^].
+Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo _Get-Help command_name_. In alternativa, fare riferimento anche a https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guida di riferimento al cmdlet del software SnapCenter"^].

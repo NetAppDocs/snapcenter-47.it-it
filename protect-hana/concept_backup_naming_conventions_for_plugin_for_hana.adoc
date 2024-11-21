@@ -10,6 +10,7 @@ summary: È possibile utilizzare la convenzione di denominazione predefinita per
 :imagesdir: ../media/
 
 
+[role="lead"]
 È possibile utilizzare la convenzione di denominazione predefinita per la copia Snapshot o una convenzione di denominazione personalizzata. La convenzione di denominazione predefinita per il backup aggiunge un indicatore data e ora ai nomi delle copie Snapshot che consente di identificare quando sono state create le copie.
 
 La copia Snapshot utilizza la seguente convenzione di denominazione predefinita:

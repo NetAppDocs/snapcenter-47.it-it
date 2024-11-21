@@ -10,6 +10,7 @@ summary: 'È possibile monitorare lo stato di avanzamento dell"installazione del
 :imagesdir: ../media/
 
 
+[role="lead"]
 È possibile monitorare lo stato di avanzamento dell'installazione del pacchetto plug-in di SnapCenter utilizzando la pagina lavori. Potrebbe essere necessario controllare lo stato di avanzamento dell'installazione per determinare quando è completa o se si è verificato un problema.
 
 *A proposito di questa attività*

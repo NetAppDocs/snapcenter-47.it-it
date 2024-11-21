@@ -10,6 +10,7 @@ summary: 'Se il database viene memorizzato su macchine virtuali (VM) o se si des
 :imagesdir: ../media/
 
 
+[role="lead"]
 Se il database viene memorizzato su macchine virtuali (VM) o se si desidera proteggere macchine virtuali e datastore, è necessario implementare il plug-in SnapCenter per l'appliance virtuale VMware vSphere.
 
 Per informazioni sulla distribuzione, vedere https://docs.netapp.com/us-en/sc-plugin-vmware-vsphere/scpivs44_get_started_overview.html["Panoramica sull'implementazione"^].

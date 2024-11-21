@@ -10,11 +10,12 @@ summary: 'È possibile utilizzare il cmdlet Remove-SmBackup per eliminare il num
 :imagesdir: ../media/
 
 
+[role="lead"]
 È possibile utilizzare il cmdlet Remove-SmBackup per eliminare il numero di backup per i backup secondari che non dispongono di copie Snapshot. È possibile utilizzare questo cmdlet quando le copie Snapshot totali visualizzate nella topologia Gestione copie non corrispondono all'impostazione di conservazione delle copie Snapshot dello storage secondario.
 
 È necessario aver preparato l'ambiente PowerShell per eseguire i cmdlet PowerShell.
 
-Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo _Get-Help command_name_. In alternativa, fare riferimento alla https://library.netapp.com/ecm/ecm_download_file/ECMLP2883300["Guida di riferimento al cmdlet del software SnapCenter"^].
+Le informazioni relative ai parametri che possono essere utilizzati con il cmdlet e le relative descrizioni possono essere ottenute eseguendo _Get-Help command_name_. In alternativa, fare riferimento anche a https://docs.netapp.com/us-en/snapcenter-cmdlets-47/index.html["Guida di riferimento al cmdlet del software SnapCenter"^].
 
 *Fasi*
 

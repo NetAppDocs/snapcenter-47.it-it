@@ -1,10 +1,16 @@
-= 
+---
+permalink: protect-hana/task_cancel_backup_operations_for_sap_hana.html 
+sidebar: sidebar 
+keywords:  
+summary: È possibile annullare le operazioni di backup inserite nella coda. 
+---
+= Annulla le operazioni di backup per SAP HANA
 :allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
 
 
-'''
-permalink: Barra laterale Protect-hana/task_cancel_backup_operations_for_sap_hana.html: Barra laterale parole chiave: riepilogo: 'È possibile annullare le operazioni di backup che sono in coda.' --- = Annulla le operazioni di backup per SAP HANA :Icons: Font :imagesdir: ../media/
-
+[role="lead"]
 È possibile annullare le operazioni di backup inserite nella coda.
 
 *Cosa ti serve*
@@ -37,7 +43,7 @@ Pagina Monitor
  a| 
 Riquadro delle attività
  a| 
-.. Dopo aver avviato l'operazione di backup, fare clic su *image:../media/activity_pane_icon.gif[""]* Nel riquadro attività per visualizzare le cinque operazioni più recenti.
+.. Dopo aver avviato l'operazione di backup, fare clic su * *image:../media/activity_pane_icon.gif["icona attività"]nel riquadro attività per visualizzare le cinque operazioni più recenti.
 .. Selezionare l'operazione.
 .. Nella pagina Dettagli processo, fare clic su *Annulla processo*.
 

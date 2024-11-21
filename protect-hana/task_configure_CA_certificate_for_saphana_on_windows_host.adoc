@@ -10,6 +10,7 @@ summary: 'Configurare il certificato CA per il servizio plug-in personalizzati d
 :imagesdir: ../media/
 
 
+[role="lead"]
 È necessario gestire la password dell'archivio chiavi dei plug-in personalizzati e il relativo certificato, configurare il certificato CA, configurare i certificati root o intermedi per l'archivio certificati attendibili dei plug-in personalizzati e configurare la coppia di chiavi firmate CA per l'archivio di fiducia dei plug-in personalizzati con il servizio Plug-in personalizzati di SnapCenter per attivare il certificato digitale installato.
 
 I plug-in personalizzati utilizzano il file _keystore.jks_, che si trova in _C: File di programma NetApp, SnapCenter, Snapcenter Plug-in Creator, ecc., sia come archivio di fiducia che come archivio chiavi.

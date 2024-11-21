@@ -10,6 +10,7 @@ summary: Importare i certificati CA del server SnapCenter e i plug-in host di Wi
 :imagesdir: ../media/
 
 
+[role="lead"]
 È necessario importare i certificati CA nel server SnapCenter e nei plug-in host di Windows utilizzando la console di gestione Microsoft (MMC).
 
 *Fasi*
