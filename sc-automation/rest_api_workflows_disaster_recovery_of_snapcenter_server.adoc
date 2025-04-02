@@ -111,4 +111,4 @@ NOTE: Se le DLL sono corrotte, provare a riparare il server SnapCenter o a corre
 
 NOTE: Se i file NSM o di configurazione sono corrotti, è possibile disinstallare e reinstallare il server SnapCenter con la stessa versione.
 
-Per ulteriori informazioni, consultare https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["API di disaster recovery"^] video.
+Per ulteriori informazioni, vedere il https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["API di disaster recovery"^] video.

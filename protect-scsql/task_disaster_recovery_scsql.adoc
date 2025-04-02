@@ -29,4 +29,4 @@ link:https://docs.netapp.com/us-en/snapcenter/admin/concept_manage_hosts.html["G
 . Importare pianificazioni Windows e SQL dalla cartella del plug-in SnapCenter per SQL Server dal backup DR.
 
 
-Per ulteriori informazioni, consultare https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["API di disaster recovery"^] video.
+Per ulteriori informazioni, vedere il https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["API di disaster recovery"^] video.
