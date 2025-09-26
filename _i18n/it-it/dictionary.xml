@@ -1537,7 +1537,6 @@
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">È necessario disporre di un utente con autorizzazioni sysadmin su SQL Server.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">Il plug-in SnapCenter per Microsoft SQL Server utilizza Microsoft VDI Framework, che richiede l'accesso sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Articolo di supporto Microsoft 2926557: Le operazioni di backup e ripristino VDI di SQL Server richiedono privilegi di amministratore di sistema</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="6f4630c11483dcb4143ae30dadd50487" category="list-text">Quando si installa un plug-in su un host Windows, se si specifica una credenziale non integrata o se l'utente appartiene a un utente del gruppo di lavoro locale, è necessario disattivare il controllo dell'account utente sull'host.</block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Se SnapManager per Microsoft SQL Server è installato, è necessario aver arrestato o disattivato il servizio e le pianificazioni.</block>
   <block id="024ecfe0da835b1f362b5e64ec1408ab" category="list-text">L'host deve essere risolvibile con il nome di dominio completo (FQDN) dal server.</block>
@@ -7941,4 +7940,5 @@ Il ripristino di una singola casella postale di NetApp® è giunto alla fine del
   <block id="9792c7ba1a8a833a1c75e11c4a7b46c3" category="list-text">Se si desidera aggiornare più host, selezionare tutti gli host, fare clic su , quindi fare clic su <block ref="725f4bf2ffc300942027282d0182533f" category="inline-image-macro-rx" type="image"></block>*Upgrade* &gt; *OK*.</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Per ulteriori informazioni, vedere il<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> video.</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
 </blocks>
